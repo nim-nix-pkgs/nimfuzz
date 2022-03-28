@@ -11,7 +11,6 @@
   inputs.src-nimfuzz-v1_1_0.ref   = "refs/tags/v1.1.0";
   inputs.src-nimfuzz-v1_1_0.owner = "apense";
   inputs.src-nimfuzz-v1_1_0.repo  = "nimfuzz";
-  inputs.src-nimfuzz-v1_1_0.dir   = "";
   inputs.src-nimfuzz-v1_1_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

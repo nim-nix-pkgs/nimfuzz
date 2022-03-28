@@ -11,7 +11,6 @@
   inputs.src-nimfuzz-master.ref   = "refs/heads/master";
   inputs.src-nimfuzz-master.owner = "apense";
   inputs.src-nimfuzz-master.repo  = "nimfuzz";
-  inputs.src-nimfuzz-master.dir   = "";
   inputs.src-nimfuzz-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
